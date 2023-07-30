@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  /* align-self: flex-start; */
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+main li {
+  list-style: none;
+  font-size: 20px;
+}
+
+main ul {
+  display: flex;
+
+  gap: 20px;
+}
+
+main li:first-child {
+  align-self: flex-start;
+}
