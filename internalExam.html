@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Get Attribute Example</title>
+  </head>
+  <body>
+    <a id="myLink" href="https://www.example.com" target="_blank">Click me</a>
+
+    <script>
+      var linkElement = document.getElementById("myLink");
+      var hrefValue = linkElement.getAttribute("href");
+
+      console.log("Href value:", hrefValue);
+    </script>
+  </body>
+</html>
